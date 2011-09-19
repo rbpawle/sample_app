@@ -29,7 +29,7 @@ SampleApp::Application.configure do
 
   # Disable Rails's static asset server
   # In production, Apache or nginx will already do this
-  config.serve_static_assets = false
+  config.serve_static_assets = true #rpawle 9/19/2011 setting true because production is not serving stylesheets and the internet told me this would fix it. 
 
   # Enable serving of images, stylesheets, and javascripts from an asset server
   # config.action_controller.asset_host = "http://assets.example.com"
